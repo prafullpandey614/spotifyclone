@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Barlow:wght@100&family=Dancing+Script&family=Koulen&family=Raleway:ital,wght@0,100;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    
+}
+ nav{
+   
+    color: white;
+}
+ 
+nav ul{
+    display: flex;
+    background-color: black;
+    list-style-type: none;
+    height: 65px;
+    
+}
+
+nav ul li{
+    padding: auto;
+    margin-top: 20px;
+    padding: 1px 14px;
+     font-family: 'Barlow', sans-serif;
+}
+
+.brand img{
+    width: 90px;
+    margin-top: -23px;
+}  
+.brand {
+   display: flex;
+    align-items: center;
+}
+.container{
+    min-height: 70vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    width: 70%;
+    display: flex;
+    margin: 23px auto;
+    padding: 34px;
+    border-radius: 10px;
+    background-image: url('/image/hvXKCz.jpg');
+    background-size: cover;
+   
+}
+.bottom{
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#myprogressbar{
+    width: 70vw;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    border-radius: 19px;
+    padding: 0px 7px;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-weight: bold;
+
+}
+.songItem img{
+    height: 35px;
+    
+    border-radius: 50%;
+}
+.timestamp{
+    margin: 23px 0px;
+    margin-top: -20px;
+    
+}
+.songInfo{
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    left: 14vw;
+}
+.songInfo img{
+    opacity: 0;
+   
+    transition: opacity 0.5s ease-in;
+    width: 10%;
+}
+#masterPlay{
+    border-radius: 30%;
+    padding: 0.7cm;
+    
+}
+/* .chotuplay{
+   
+} */
