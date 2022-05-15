@@ -1,6 +1,6 @@
 console.log("Welcome to Spotif- The real Music");
 //Initializing elements
-let audioElement = new Audio("/songs/2.mp3");
+let audioElement = new Audio("/spotifyclone/songs/2.mp3");
 let currSong = document.getElementById("currSong");
 let index = 0;
 let masterPlay = document.getElementById('masterPlay');
